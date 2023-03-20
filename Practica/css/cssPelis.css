@@ -1,0 +1,365 @@
+aside {
+    float: right;
+    margin-left: 200px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body li {
+    list-style: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+/*Margen de las secciones*/
+.margen {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+#argumento,
+#reparto,
+#maspelis,
+#imag,
+#especificaciones {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    position: relative;
+    display: inline-block;
+}
+
+#argumento::before,
+#reparto::before,
+#maspelis::before,
+#imag::before,
+#especificaciones::before {
+    content: "";
+    position: absolute;
+    background-color: gold;
+    height: 24px;
+    width: 5px;
+    left: -10px;
+    top: 5px;
+}
+
+/* HEADER */
+/* HEADER */
+/* HEADER */
+
+header a {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: 3px solid red;
+    border-radius: 10px;
+    background-color: white;
+}
+
+header {
+    min-width: 100%;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navegacion {
+    text-align: center;
+}
+
+
+
+
+/* TRAILER */
+/* TRAILER */
+/* TRAILER */
+
+/* Titulo de peli*/
+#trailer {
+    color: white;
+    font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.fondotrailer {
+    background-color: rgb(34, 34, 34);
+    min-width: 100%;
+    padding: 0px;
+    padding-bottom: 15px;
+    margin: 0px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondotrailer h3 {
+    color: rgb(202, 202, 202);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 5px;
+}
+
+.lista span {
+    color: white;
+    font-weight: normal;
+
+}
+
+.lista li {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 188, 188);
+    font-weight: bold;
+}
+
+.publi img {
+    width: 260px;
+    height: 580px;
+}
+
+
+/*TABLA HORARIOS*/
+/*TABLA HORARIOS*/
+/*TABLA HORARIOS*/
+
+caption {
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+table th,
+td {
+    border: 3px solid red;
+    padding: 5px;
+    background-color: white;
+}
+
+table td {
+    border-radius: 10px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+
+/* Galeria de imagenes*/
+/* Galeria de imagenes*/
+/* Galeria de imagenes*/
+.gImagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+}
+
+.gImagenes img {
+    width: 240px;
+    height: 175px;
+    padding-left: 25px;
+}
+
+
+/* REPARTO */
+/* REPARTO */
+/* REPARTO */
+
+/* Seccion REPARTO */
+.imgReparto {
+    width: 1200px;
+}
+
+.zReparto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Texto a la derecha de las imagenes */
+.imgReparto ul {
+    float: right;
+    padding-top: 40px;
+}
+
+.imgReparto li {
+    text-align: right;
+}
+
+.imgReparto ol {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 50px;
+}
+
+/* Imagenes de la columna izquierda */
+.imgIzq {
+    width: 420px;
+    height: 160px;
+    padding-bottom: 25px;
+}
+
+/* Imagenes de la columna derecha */
+.imgDer {
+    width: 420px;
+    height: 160px;
+    padding-bottom: 25px;
+}
+
+/* Imagenes */
+.imgReparto img {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    border: 3px solid gold;
+    margin-left: 50px;
+}
+
+.imgReparto span {
+    font-weight: bold;
+}
+
+/* ARGUMENTO */
+/* ARGUMENTO */
+/* ARGUMENTO */
+
+.argumento {
+    width: 1200px;
+}
+
+.argumento p {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.especificaciones {
+    min-width: 1200px;
+}
+
+.especificaciones li {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.especificaciones span {
+    font-weight: bold;
+}
+
+
+/* MAS PELICULAS */
+/* MAS PELICULAS */
+/* MAS PELICULAS */
+
+/* Seccion Mas peliculas */
+.maspelis {
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    width: 1200px;
+}
+
+/* DIV dentro de mas peliculas */
+.zPelis {
+    float: left;
+    padding-left: 30px;
+    width: 200px;
+}
+
+/* texto de mas peliculas */
+.zPelis p {
+    text-align: center;
+}
+
+.zPelis p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+/* imagenes mas peliculas */
+.maspelis img {
+    width: 200px;
+    height: 300px;
+}
+
+
+
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+
+footer {
+    margin-top: 300px;
+    height: 300px;
+    background-color: black;
+    padding: 0px;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zFooter {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.contenido {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja{
+    width: 500px;
+}
+.contenido a{
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nova{
+    color: rgb(170, 170, 170);
+}
+.z2footer {
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.z2footer img {
+    width: 50px;
+    height: 50px;
+}

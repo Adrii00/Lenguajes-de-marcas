@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="tienda.css" type="text/css"?>
+<!DOCTYPE tienda SYSTEM "tienda.dtd">
+<tienda>
+    <producto productoID="1">
+        <nombre>Monopoly</nombre>
+        <marca>Hasbro</marca>
+        <precio>20</precio>
+        <pegi>3</pegi>
+        <categoria>Juegos de mesa</categoria>
+        <descuento>0</descuento>
+    </producto>
+    <producto productoID="2">
+        <nombre>Black Panther</nombre>
+        <marca>Marvel</marca>
+        <precio>15</precio>
+        <pegi>7</pegi>
+        <categoria>Comic</categoria>
+        <descuento>5</descuento>
+    </producto>
+    <producto productoID="3">
+        <nombre>Shingeki No Kiogyn</nombre>
+        <marca>Yoqueseshi</marca>
+        <precio>18</precio>
+        <pegi>12</pegi>
+        <categoria>Manga</categoria>
+        <descuento>6</descuento>
+    </producto>
+    <producto productoID="4">
+        <nombre>Uno</nombre>
+        <marca>Hasbro</marca>
+        <precio>14</precio>
+        <pegi>3</pegi>
+        <categoria>Juegos de mesa</categoria>
+        <descuento>2</descuento>
+    </producto>
+</tienda>

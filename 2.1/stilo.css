@@ -1,0 +1,52 @@
+* {
+    background-color: bisque;
+    display: block;
+}
+
+playstore {
+    margin: 5px;
+    background-color: darkgray;
+}
+
+playstore::before {
+
+content:" Videojuegos" ;
+font-size: 1.5rem;
+font-weight: bold;
+margin-bottom: 10px;
+color: bisque;
+}
+
+titulo::before {
+    content: "Titulo: ";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+precio::before {
+    content: "Precio: ";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
+
+pegi::before {
+    content: "PEGI: ";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+género::before {
+    content: "Genero: ";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+videojuego {
+    border: 5px solid black;
+    margin: 5px;
+}

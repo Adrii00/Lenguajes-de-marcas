@@ -1,0 +1,64 @@
+* {
+    background-color: bisque;
+    display: block;
+}
+
+tienda {
+    margin: 5px;
+    background-color: darkgray;
+}
+
+tienda::before {
+
+content:"Comic Stores" ;
+font-size: 1.5rem;
+font-weight: bold;
+margin-bottom: 10px;
+color: bisque;
+}
+
+nombre::before {
+    content: "Titulo: ";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+marca::before {
+    content: "Marca: ";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
+
+precio::before {
+    content: "Precio: ";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+pegi::before {
+    content: "Pegi: ";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+categoria::before {
+    content: "Categoria: ";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+descuento::before {
+    content: "Descuento: ";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+producto {
+    border: 5px solid black;
+    margin: 5px;
+}

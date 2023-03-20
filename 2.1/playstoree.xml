@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="stilo.css" type="text/css"?>
+<!DOCTYPE playstore SYSTEM "playstore.dtd">
+<playstore>
+    <videojuego consola="ps4">
+        <titulo>Dead Space</titulo>
+        <precio>60€</precio>
+        <pegi>18</pegi>
+        <genero>Horror</genero>
+        <genero>Survival</genero>
+    </videojuego>
+    <videojuego consola="ps5">
+        <titulo>Project Zomboid</titulo>
+        <precio descuento="20%">60€</precio> <!-- Atributo descuento es opcional-->
+        <pegi>13</pegi>
+        <genero>Supervivencia</genero>
+        <descripcion>
+            Este juego es de supervivencia
+        </descripcion>
+    </videojuego>
+</playstore>

@@ -1,0 +1,11 @@
+<!ELEMENT tienda (producto)+>  
+<!ELEMENT producto (nombre, marca, precio, (edad_recomendada|pegi), categoria+, descuento)>
+<!ATTLIST producto productoID CDATA #REQUIRED>    <!-- Valor por defecto-->
+
+<!ELEMENT nombre (#PCDATA)> 
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT edad_recomendada (#PCDATA)>
+<!ELEMENT pegi (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT descuento (#PCDATA)>
